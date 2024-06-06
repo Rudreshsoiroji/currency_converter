@@ -61,7 +61,7 @@ const convert = () =>{
   amountDisabled
   />
 </div>
-<button type='submit' className='w-full bg-blue-600 text_white pc-4 py-3 rounded-lg'> convert {from} to {to}</button>
+<button type='submit' className='w-full bg-blue-600 text_white pc-4 py-3 rounded-lg'> convert {from.toLocaleUpperCase()} to {to.toLocaleUpperCase()}</button>
       </form>
       
       </div>
